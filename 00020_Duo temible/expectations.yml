@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: duoTemible
+  inspection: Uses:esPeligroso
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:duoTemible
+  inspection: Not:Uses:amigo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:duoTemible
+  inspection: Not:Uses:pareja

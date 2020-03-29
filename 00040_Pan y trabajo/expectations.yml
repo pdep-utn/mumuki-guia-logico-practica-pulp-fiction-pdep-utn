@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sanCayetano
+  inspection: HasForall
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:sanCayetano
+  inspection: Not:Uses:trabajaPara
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:sanCayetano
+  inspection: Not:Uses:amigo
